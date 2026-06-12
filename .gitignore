@@ -1,0 +1,27 @@
+APIBO/
+script.sql
+EnpointsRoles.txt
+Documentation/Context/PrimaryAPI-BO_v1.6.4.md
+
+# Local secrets and environment
+.env
+.env.*
+
+# Confluence migration local artifacts
+ConfluenceMigration/config/
+ConfluenceMigration/output/
+ConfluenceMigration/*.log
+ConfluenceMigration/**/*.log
+ConfluenceMigration/*.tmp
+ConfluenceMigration/**/*.tmp
+ConfluenceMigration/*mapping*.json
+ConfluenceMigration/**/*mapping*.json
+ConfluenceMigration/*map*.json
+ConfluenceMigration/**/*map*.json
+
+# General temporary/editor files
+*.log
+*.tmp
+*.bak
+Thumbs.db
+Desktop.ini
